@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yair Weinberger | יאיר וינברגר</title>
+    <meta name="description" content="Yair Weinberger - tech founder, investor, builder. Co-Founder & CTO at Reindeer AI. Previously Alooma (acquired by Google), ConvertMedia (acquired by Taboola). Managing Partner at INT3.">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "@id": "https://yairwein.com/",
+        "name": "Yair Weinberger",
+        "givenName": "Yair",
+        "familyName": "Weinberger",
+        "alternateName": [
+            { "@value": "יאיר וינברגר", "@language": "he" }
+        ],
+        "url": "https://yairwein.com/",
+        "sameAs": [
+            "https://x.com/yairwein",
+            "https://www.linkedin.com/in/yairwein/",
+            "https://www.crunchbase.com/person/yair-weinberger",
+            "https://github.com/yairwein",
+            "https://www.quora.com/profile/Yair-Weinberger"
+        ]
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #222;
+            background: #fafafa;
+            padding: 2rem;
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        #content { white-space: pre-wrap; }
+        #content h1 { font-size: 1.1em; margin-bottom: 0.5em; }
+        #content h2 { font-size: 1em; margin-top: 1.2em; margin-bottom: 0.3em; color: #555; }
+        #content p { margin-bottom: 0.4em; }
+        #content ul { list-style: none; padding-left: 1.2em; margin-bottom: 0.5em; }
+        #content ul li::before { content: "- "; margin-left: -1.2em; color: #888; }
+        #content ul li { margin-bottom: 0; line-height: 1.1; }
+        #content ul li p { margin-bottom: 0; }
+        #content a { color: #0066cc; text-decoration: none; }
+        #content a:hover { text-decoration: underline; }
+        #content img { border-radius: 50%; width: 150px; height: 150px; display: block; margin: 1em 0; }
+        #content blockquote {
+            border-left: 2px solid #ddd;
+            padding-left: 1em;
+            color: #555;
+            margin: 0.5em 0;
+        }
+        #content strong { font-weight: 600; }
+        #content code { background: #eee; padding: 0.1em 0.3em; border-radius: 3px; font-size: 0.95em; }
+        #raw { display: none; }
+        .toggle {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            font-family: inherit;
+            font-size: 12px;
+            background: #eee;
+            border: 1px solid #ddd;
+            padding: 0.3em 0.8em;
+            cursor: pointer;
+            border-radius: 3px;
+            color: #555;
+        }
+        .toggle:hover { background: #ddd; }
+        pre.raw-view {
+            white-space: pre-wrap;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle" onclick="toggleView()">raw</button>
+    <div id="content"></div>
+    <pre id="raw" class="raw-view"></pre>
+
+    <script>
+    const md = `# Yair Weinberger | יאיר וינברגר
+![Yair Weinberger](https://place-il.org/wp-content/uploads/2025/06/Yair-Wenberger.jpeg)
+
+## about
+Pronounced "Ya-ear" (Ya-👂)
+
+**short:** tech founder, investor, builder, dad (3), basketball
+
+**medium:** Yair Weinberger is a tech entrepreneur and investor. He co-founded [Reindeer AI](https://reindeer.ai/), building AI agents for enterprise workflows, backed by [Lightspeed](https://lsvp.com/company/reindeer-ai/), [Team8](https://team8.vc/portfolio/reindeer-ai/) & [Vesey Ventures](https://www.veseyventures.com/). Previously co-founded [Alooma](https://en.everybodywiki.com/Alooma), a real-time data pipeline platform acquired by [Google](https://cloud.google.com/blog/topics/inside-google-cloud/google-announces-intent-to-acquire-alooma-to-simplify-cloud-migration) in 2019. Before that, SVP R&D at [ConvertMedia](https://www.crunchbase.com/organization/convertmedia) (acquired by [Taboola](https://www.taboola.com/)). Managing partner at [INT3](https://int3.com/), a founders' fund. [Talpiot](https://en.wikipedia.org/wiki/Talpiot_program) alumnus (Class XXII).
+
+## social
+- **x:** [@yairwein](https://x.com/yairwein) **# most active**
+- **linkedin:** [yairwein](https://www.linkedin.com/in/yairwein/)
+- **github:** [yairwein](https://github.com/yairwein)
+- **crunchbase:** [yair-weinberger](https://www.crunchbase.com/person/yair-weinberger)
+- **quora:** [Yair-Weinberger](https://www.quora.com/profile/Yair-Weinberger)
+
+## companies
+- **[Reindeer AI](https://reindeer.ai/)** - Co-Founder & CTO (2024-present). Enterprise AI agents for high-volume workflow automation. $18M seed round. Processing 7M+ invoices/year for enterprise clients.
+- **[Google](https://cloud.google.com/)** - Director of Software Engineering (2019-2024). Led large-scale ERP integrations post Alooma acquisition.
+- **[INT3](https://int3.com/)** - Managing Partner. Israeli founders' fund, co-founded with [Danny Leshem](https://dannyleshem.com/), Yoav Amit & Yoav Naveh. Angel investments across Enterprise, SaaS, FinTech. Notable exits: RightBound, Genda, Entitle.
+- **[Alooma](https://en.everybodywiki.com/Alooma)** - Co-Founder & CTO (2014-2019). Real-time data pipeline integration platform. Acquired by [Google for $150M](https://en.globes.co.il/en/article-google-buys-israeli-data-migration-co-alooma-1001273938) (Feb 2019).
+- **[ConvertMedia](https://www.crunchbase.com/organization/convertmedia)** - SVP R&D (2011-2014). Built real-time bidding tech handling 10B+ bid requests/day. Acquired by [Taboola for ~$100M](https://techcrunch.com/2016/07/26/taboola-steps-up-in-video-referrals-buys-convertmedia-for-shy-of-100m/) (2016).
+
+## ngo
+- **[Place IL](https://place-il.org/)** - Connecting Israeli tech companies with talent from underrepresented populations.
+
+## government
+- **Cyber Security** - Israeli Government (2000-2011). [Talpiot](https://en.wikipedia.org/wiki/Talpiot_program) alumnus (Class XXII).
+
+## talks & interviews
+- [גיקונומי #1155](https://podcasts.apple.com/us/podcast/%D7%A4%D7%A8%D7%A7-1155-%D7%99%D7%90%D7%99%D7%A8-%D7%95%D7%99%D7%A0%D7%91%D7%A8%D7%92%D7%A8/id1019124387?i=1000747079195) (audio, 1h17m, Hebrew, Jan 2026). On the Alooma exit, founding Reindeer, and the AI landscape in Israel.
+- [שיחת בוגר - פרק 17](https://open.spotify.com/episode/0yE4yh8rVa5BwpvTzOZjOb) (audio, 54m, Hebrew, Feb 2025). Talpiot alumni podcast. On the Alooma exit, venture capital, and the new startup.
+- [Interview with Yair Weinberger, CEO of Reindeer](https://thesilkroadnexus.substack.com/p/interview-with-yair-weinberger-ceo) - The Silk Road Nexus (article). On SaaS economics, process context as moat, enterprise AI.
+- [גיקונומי #842](https://open.spotify.com/episode/0XNvTbEwYPhz1mVgW64jkI) (audio, Hebrew, Jan 2024). On the Alooma exit, VC, and Israeli political activism.
+- [עשר דקות על שיווק](https://www.10minutemarketing.co.il/%D7%9B%D7%9C-%D7%94%D7%A4%D7%A8%D7%A7%D7%99%D7%9D/%D7%99%D7%90%D7%99%D7%A8-%D7%95%D7%99%D7%A0%D7%91%D7%A8%D7%92%D7%A8) (audio, Hebrew, Jul 2019). Do's and don'ts in SaaS marketing, as VP Growth at Alooma.
+- [The Alooma Data Pipeline](https://www.dataengineeringpodcast.com/alooma-with-yair-weinberger-episode-33/) - Data Engineering Podcast, Episode 33 (audio, May 2018). On data collection, pipeline architecture, streaming infrastructure.
+- [Stop Obsessing about Data Infrastructure](https://www.youtube.com/watch?v=zMfXT_P789k) - DataCouncil NYC (video, 2016). On the evolution of data applications and the shift from on-premise to cloud.
+
+## faq
+- **what's up with this website?**
+  Straightforward, no fluff. Markdown format. Designed for agents, but works for humans as well. Rendered client-side. Inspired by [Danny Leshem](https://dannyleshem.com/) (who adapted from [Clark Evans](https://clarkevans.com/), YAML creator).
+`;
+
+    document.getElementById('content').innerHTML = marked.parse(md);
+    document.getElementById('raw').textContent = md;
+
+    let showingRaw = false;
+    function toggleView() {
+        showingRaw = !showingRaw;
+        document.getElementById('content').style.display = showingRaw ? 'none' : 'block';
+        document.getElementById('raw').style.display = showingRaw ? 'block' : 'none';
+        document.querySelector('.toggle').textContent = showingRaw ? 'rendered' : 'raw';
+    }
+    </script>
+</body>
+</html>
